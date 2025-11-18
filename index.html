@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Colorful Responsive Site</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <!-- Header -->
+  <header class="header">
+    <div class="container header-flex">
+      <h2 class="logo">BrightWeb</h2>
+
+      <!-- Hamburger -->
+      <input type="checkbox" id="nav-toggle" class="nav-toggle">
+      <label for="nav-toggle" class="nav-toggle-label"><span></span></label>
+
+      <nav class="navbar">
+        <ul>
+          <li><a href="#hero">Home</a></li>
+          <li><a href="#features">Features</a></li>
+          <li><a href="#pricing">Pricing</a></li>
+          <li><a href="#testimonials">Reviews</a></li>
+          <li><a href="#footer">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="hero" class="hero container">
+    <div class="hero-text">
+      <h1>Build Colorful & Responsive Websites</h1>
+      <p>Create beautiful layouts that work perfectly on mobile, tablet, and desktop using CSS Media Queries.</p>
+      <button class="btn">Get Started</button>
+    </div>
+  </section>
+
+  <!-- Side Navigation + Main Content Layout -->
+  <section class="main-layout container">
+    
+    <!-- SIDE NAV for Desktop -->
+    <aside class="side-nav">
+      <h3>Quick Links</h3>
+      <ul>
+        <li><a href="#hero">Introduction</a></li>
+        <li><a href="#features">Features</a></li>
+        <li><a href="#pricing">Pricing Plans</a></li>
+        <li><a href="#testimonials">Testimonials</a></li>
+      </ul>
+    </aside>
+
+    <!-- Main Content -->
+    <div class="content-area">
+
+      <!-- Feature Grid -->
+      <section id="features" class="features">
+        <h2 class="section-title">Amazing Features</h2>
+
+        <div class="feature-card">
+          <h3>Responsive Design</h3>
+          <p>Your website automatically adjusts to every screen size.</p>
+        </div>
+
+        <div class="feature-card">
+          <h3>Beautiful UI</h3>
+          <p>Colorful, modern interface with smooth animations.</p>
+        </div>
+
+        <div class="feature-card">
+          <h3>Easy to Customize</h3>
+          <p>Edit colors, sections, and layout easily.</p>
+        </div>
+
+        <div class="feature-card">
+          <h3>Fast Loading</h3>
+          <p>Optimized CSS ensures quick load time on all devices.</p>
+        </div>
+      </section>
+
+      <!-- Pricing Section -->
+      <section id="pricing" class="pricing">
+        <h2 class="section-title">Pricing Plans</h2>
+
+        <div class="price-card">
+          <h3>Basic</h3>
+          <p class="price">₹199/month</p>
+          <ul>
+            <li>1 Website</li>
+            <li>Responsive Layout</li>
+            <li>Email Support</li>
+          </ul>
+          <button class="btn">Choose Basic</button>
+        </div>
+
+        <div class="price-card popular">
+          <h3>Pro</h3>
+          <p class="price">₹399/month</p>
+          <ul>
+            <li>5 Websites</li>
+            <li>Premium Colors</li>
+            <li>Priority Support</li>
+          </ul>
+          <button class="btn">Choose Pro</button>
+        </div>
+
+        <div class="price-card">
+          <h3>Enterprise</h3>
+          <p class="price">₹699/month</p>
+          <ul>
+            <li>Unlimited Websites</li>
+            <li>Advanced Features</li>
+            <li>Dedicated Manager</li>
+          </ul>
+          <button class="btn">Choose Enterprise</button>
+        </div>
+      </section>
+
+      <!-- Testimonials -->
+      <section id="testimonials" class="testimonials">
+        <h2 class="section-title">What Users Say</h2>
+
+        <div class="testi-card">
+          <p>"This website layout is super clean and colorful. Loved it!"</p>
+          <h4>- Kiran</h4>
+        </div>
+
+        <div class="testi-card">
+          <p>"Perfect for my projects. Very mobile-friendly."</p>
+          <h4>- Ayesha</h4>
+        </div>
+
+      </section>
+
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer id="footer" class="footer">
+    <p>© 2025 BrightWeb - Designed for Task 4</p>
+  </footer>
+
+</body>
+</html>
